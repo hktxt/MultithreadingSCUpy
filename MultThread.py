@@ -56,9 +56,9 @@ def main():
 	gevent.joinall([
         gevent.spawn(payloads, f1, q),
         gevent.spawn(payloads, f2, q),
-		gevent.spawn(payloads, f3, q),
+	gevent.spawn(payloads, f3, q),
         gevent.spawn(payloads, f4, q),
-		gevent.spawn(payloads, f5, q),
+	gevent.spawn(payloads, f5, q),
 ])
 	result.append(q.get())
 	print result	

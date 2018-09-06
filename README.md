@@ -1,2 +1,2 @@
 # MultithreadingSCUpy
-#这是什么鬼...
+#SCU account explosion
